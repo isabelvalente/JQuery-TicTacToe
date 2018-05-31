@@ -63,14 +63,13 @@ $(document).ready(function(){
       if ($(data.innerHTML == 'X')) {
         $(data.empty());
         $(data.addClass('clear'));
-      }
-      if ($(data.innerHTML == 'O')) {
+      } if else {
         $(data.empty());
       }
     });
 
 
-    console.log($(data.innerHTML));
+
 
 
 
